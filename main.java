@@ -2,16 +2,21 @@ import java.util.ArrayList;
 
 public class main {
     public static void main(String[] args) {
-        ArrayList<String> names = new ArrayList<String>();
-        names.add("Ben");
-        names.add("Andy");
-        names.add("David");
-        String[] moreNames = {"Crystal", "Monica", "Toby", "Nancy"};
-        int namesAmt = names.size();
-        int moreNamesAmt = moreNames.length;
-        int thirdNameLength = names.get(2).length();
-        int secondNameLength = moreNames[1].length();
-        int lengths = namesAmt + moreNamesAmt + thirdNameLength + secondNameLength;
-        System.out.println(lengths); // should print 18
+        Integer num1 = new Integer(5);
+        Integer num2 = 10;
+        int num3 = 15;
+        
+        ArrayList<Integer> numList = new ArrayList<Integer>();
+        
+        numList.add(num1);
+        numList.add(num2);
+        numList.add(num3);
+        
+        int sum = num1 + num2 + num3;
+        
+        numList.add(sum);
+        
+        System.out.println(numList);
+    
     }
 }

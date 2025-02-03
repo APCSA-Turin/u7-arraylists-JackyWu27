@@ -25,5 +25,6 @@ public class CatRunner {
         System.out.println(cats.get(1) == cat2);
         System.out.println(cats.get(2) == cat4);
 
+        
     }
 }
